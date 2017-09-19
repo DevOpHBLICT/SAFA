@@ -242,7 +242,7 @@ namespace SAFA
                     var tg10 = new d("12", "Self neglect", "#bfbfbf");
                     Xamarin.Forms.Device.BeginInvokeOnMainThread(() => Navigation.PushAsync(tg10));
                 }
-
+//
 
                 if (e.SelectedItem == null) return; // don't do anything if we just de-selected the row
                                                     // do something with e.SelectedItem
