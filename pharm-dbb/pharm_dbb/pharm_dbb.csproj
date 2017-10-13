@@ -46,7 +46,6 @@
     <Compile Include="Contents.cs" />
     <Compile Include="definition.cs" />
     <Compile Include="display.cs" />
-    <Compile Include="imca.cs" />
     <Compile Include="info_2.cs" />
     <Compile Include="IPhoneCall.cs" />
     <Compile Include="ISaveAndLoad.cs" />
@@ -59,7 +58,6 @@
     <Compile Include="RoundedCornersButton.cs" />
     <Compile Include="Texts.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TransparentWebView.cs" />
     <Compile Include="What_Is_Safeguarding.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -101,7 +99,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="GettingStarted.Xamarin" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

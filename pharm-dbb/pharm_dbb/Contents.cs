@@ -17,7 +17,7 @@ namespace SAFA
 
     public class Contents : ContentPage
     {
-        private ListView _pharmacylist;
+        private ListView _SAFAlist;
 
 
 
@@ -120,21 +120,21 @@ namespace SAFA
 
             };
 
-            _pharmacylist = new ListView
+            _SAFAlist = new ListView
             {
 
                 SeparatorColor = Color.FromHex("#ddd"),
             };
-            _pharmacylist.ItemsSource = data;
+            _SAFAlist.ItemsSource = data;
             var cell = new DataTemplate(typeof(ImageCell));
             cell.SetValue(TextCell.TextColorProperty, Color.FromHex("a50100"));
-            _pharmacylist.HasUnevenRows = true;
+            _SAFAlist.HasUnevenRows = true;
 
             cell.SetBinding(TextCell.TextProperty, "Name");
             cell.SetBinding(ImageCell.ImageSourceProperty, "Image");
 
-            _pharmacylist.ItemTemplate = cell;
-            _pharmacylist.RowHeight = 63;
+            _SAFAlist.ItemTemplate = cell;
+            _SAFAlist.RowHeight = 63;
 
 
 
@@ -222,7 +222,7 @@ namespace SAFA
                
                      //  BackgroundColor = Color.White,
                     Children = {
-                  jj, _pharmacylist,logo
+                  jj, _SAFAlist,logo
 
                 }
                 };
@@ -237,7 +237,7 @@ namespace SAFA
 
 
 
-            _pharmacylist.ItemSelected += (sender, e) =>
+            _SAFAlist.ItemSelected += (sender, e) =>
             {
 
 

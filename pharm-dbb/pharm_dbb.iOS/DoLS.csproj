@@ -200,7 +200,6 @@
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Pages.cs" />
     <Compile Include="RootObject.cs" />
-    <Compile Include="TransparentWebViewRenderer.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />

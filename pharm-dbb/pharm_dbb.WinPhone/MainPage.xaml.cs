@@ -38,7 +38,7 @@ namespace pharm_dbb.WinPhone
             
 
             
-            LoadApplication(new SAFA.App());
+          //  LoadApplication(new SAFA.App());
         }
 
         /// <summary>
