@@ -10,7 +10,7 @@ using SAFA;
 
 namespace pharm_dbb.Droid
 {
-    [Activity(Theme = "@android:style/Theme.Holo.Light", Label = "MCA", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Theme = "@android:style/Theme.Holo.Light", Label = "HSAB SAFA", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
     {
 
